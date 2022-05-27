@@ -97,7 +97,7 @@ function bootsaan(){
 
 
 // Met deze function verschijnt de button. Deze is geprogammeerd om te verschijnen wanneer er 2 keer op de button
-// wordt geklikt. Hierbij heb ik hulp gehad van een aantal youtube video's.
+// wordt geklikt. 
 function buttonVerschijnt(){
     if(bestelling == 1){
         document.getElementById("button").style.visibility="visible";
