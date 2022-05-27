@@ -85,20 +85,20 @@ function slippersaan(){
     outfit = haar + topje + rok + schoenen + ".png";
     model.src = "./img/"+ outfit;
     outfitstatus[3] = true;
-    buttonverschijnt();
+    buttonVerschijnt();
 }
 function bootsaan(){
     schoenen = "popboots"
     outfit = haar + topje + rok + schoenen + ".png";
     model.src = "./img/"+ outfit;
     outfitstatus[3] = true;
-    buttonverschijnt();
+    buttonVerschijnt();
 }
 
 
 // Met deze function verschijnt de button. Deze is geprogammeerd om te verschijnen wanneer er 2 keer op de button
-// wordt geklikt. Hierbij heb ik hulp gehad van een youtube video.
-function buttonverschijnt(){
+// wordt geklikt. Hierbij heb ik hulp gehad van een aantal youtube video's.
+function buttonVerschijnt(){
     if(bestelling == 1){
         document.getElementById("button").style.visibility="visible";
         zichtbaar= true;
